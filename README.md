@@ -9,6 +9,11 @@ Dependecies:
 pip install steam
 ```
 
+Launch:
+```
+python pySKG.py
+```
+
 ### Changelog and plans:
 - [x] Generate keys.
 - [x] Save results to file.
