@@ -20,5 +20,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # steam_test()
     main()
