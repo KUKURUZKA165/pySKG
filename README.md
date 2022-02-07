@@ -1,7 +1,6 @@
 # pySKG
-<b>Rofl</b> steam keys generator script with some cool features.
+### <b>Rofl</b> steam keys generator script with some cool features.
 
-### in development
 ![img](/demo.png)
 
 
@@ -11,4 +10,4 @@
 - [ ] Activate generated keys inside steam.
 - [ ] Do it without authorization.
 - [ ] Do it without authorization.
-- [ ] GUI?.
+- [ ] GUI?
