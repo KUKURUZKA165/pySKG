@@ -1,9 +1,7 @@
 # pySKG
 ### <b>Rofl</b> steam keys generator script with some cool features.
 
-![img](./demo.png)
-
-### Installation
+### Installation:
 Dependecies:
 ```
 pip install steam
@@ -21,3 +19,7 @@ python pySKG.py
 - [x] Do it automatically.
 - [ ] Do it without authorization.
 - [ ] GUI? (never lol)
+
+### Screenshots:
+![img](./demo/demo1.png)
+![img](./demo/demo2.png)
