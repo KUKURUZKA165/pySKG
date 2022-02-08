@@ -1,8 +1,11 @@
 # pySKG
 ### <b>Rofl</b> steam keys generator script with some cool features.
 
+### [Download here](https://codeload.github.com/KUKURUZKA165/pySKG/zip/refs/heads/main)
+
 ### Installation:
-Dependecies:
+
+Install dependecies:
 ```
 pip install steam
 ```
@@ -23,3 +26,5 @@ python pySKG.py
 ### Screenshots:
 ![img](./demo/demo1.png)
 ![img](./demo/demo2.png)
+
+[steam_tools.py code was taken from here. Thanks @kenx00x and @Fhoughton for good usage example!](https://github.com/Fhoughton/Steam-Key-Sniper/blob/master/SteamKeySniper.py)
