@@ -29,5 +29,5 @@ async def menu_2():
     print('Login required. I recommend using your main account here ONLY if you trust thirdparty "steam" library.')
     await login()
     while True:
-        await activate_key(generate_key())
+        await activate_key(await generate_key())
         sleep(1)
