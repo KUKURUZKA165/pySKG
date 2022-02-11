@@ -12,7 +12,11 @@ pip install steam
 
 Launch:
 ```
-python pySKG.py
+python3 pySKG.py
+```
+or just:
+```
+./pySKG.py
 ```
 
 ### Changelog and plans:

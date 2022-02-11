@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from gen import *
 from asyncio import run
 

@@ -4,7 +4,8 @@ sym_rng = ascii_uppercase + digits
 
 
 async def generate_key():
-    return ''.join(choice(sym_rng) for _ in range(5)) + "-" + ''.join(choice(sym_rng) for _ in range(5)) + "-" + ''.join(choice(sym_rng) for _ in range(5))  # thanks stackoverflow
+    return ''.join(choice(sym_rng) for _ in range(5)) + "-" + ''.join(choice(sym_rng) for _ in range(5)) + "-" + ''.join(choice(sym_rng) for _ in range(5))
+# thanks stackoverflow
 
 
 async def save(text):
