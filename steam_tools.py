@@ -4,11 +4,10 @@ from time import sleep
 from utils import *
 badcount = 0
 
-global user
-global sessionID
-
 
 async def login():
+    global user
+    global sessionID
     username = input("Enter username: ")
     password = input("Enter password: ")
     user = wa.WebAuth(username, password)
@@ -21,7 +20,6 @@ async def login():
         code = input("Enter 2FA code: ")
         user.login(twofactor_code=code)
     sessionID = user.session.cookies.get_dict()["sessionid"]
-    return user, sessionID
 
 
 async def activate_key(keys):
